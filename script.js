@@ -119,7 +119,7 @@ if (form) {
           _subject: `🔧 New Quote: ${data.service} — ${data.suburb} (${data.urgency})`,
           _template: "table",
           _captcha: "false",
-          _autoresponse: `Hi ${data.name}, thanks for contacting PureFlow Plumbing Co. We received your ${data.service} request for ${data.suburb} and will reply within 1 business hour. For emergencies call (02) 9000 1234.`,
+          _autoresponse: `Hi ${data.name}, thanks for contacting PureFlow Plumbing Co. We received your ${data.service} request for ${data.suburb} and will reply within 1 business hour. For emergencies call 0487 231 480.`,
         }),
       });
       if (!res.ok) throw new Error("send failed");
